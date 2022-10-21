@@ -336,7 +336,6 @@ picture {
   color: var(--color-white);
 }
 
-.leaflet-container a.leaflet-popup-close-button:hover,
 .leaflet-container a.leaflet-popup-close-button:focus {
   color: var(--color-accent);
 }
@@ -349,6 +348,44 @@ picture {
 .leaflet-touch .leaflet-bar a {
   text-shadow: 1px 1px 2px var(--color-gray);
   line-height: 26px;
+}
+
+@media (hover: hover) {
+
+  .home-header a,
+  .location-header a.back {
+    transition: background-color 0.4s linear;
+  }
+
+  .home-header a span,
+  .location-header a.back {
+    transition: background-color 0.3s ease-in-out;
+  }
+
+  .home-header a:hover,
+  .location-header a.back:hover {
+    background-color: var(--color-accent);
+  }
+
+  .home-header a:hover span,
+  .location-header a.back:hover span {
+    background-color: var(--color-black);
+  }
+
+  .home-footer .social a:hover svg path {
+    fill: var(--color-accent);
+    transition: fill 0.3s ease-in-out;
+  }
+
+  .location-footer .social a:hover svg path {
+    fill: var(--color-white);
+    transition: fill 0.3s ease-in-out;
+  }
+
+  .leaflet-container a.leaflet-popup-close-button:hover {
+    color: var(--color-accent);
+  }
+
 }
 
 @media (min-width: 48em) {
@@ -494,7 +531,7 @@ picture {
   }
 
   .leaflet-right {
-    right: 40px;
+    right: 30px;
   }
 
 }

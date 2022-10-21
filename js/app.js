@@ -14,7 +14,7 @@ L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
 }).addTo(map);
 
 let customIcon = L.icon({
-  iconUrl: '../assets/icon-location.svg',
+  iconUrl: './assets/icon-location.svg',
   iconSize: [66, 88],
   iconAnchor: [33, 85],
   popupAnchor: [-3, -76]

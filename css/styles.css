@@ -429,6 +429,10 @@ picture {
     left: 40px;
   }
 
+  .location-header #map {
+    height: 600px;
+  }
+
   .home-main,
   .location-main {
     padding: 0 40px;

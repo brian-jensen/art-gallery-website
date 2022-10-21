@@ -102,8 +102,8 @@ picture {
 }
 
 .home-header p {
-  font-size: 18px;
-  line-height: 28px;
+  font-size: 1.125rem;
+  line-height: 1.75rem;
   color: var(--color-gray);
   margin-bottom: 32px;
 }
@@ -113,11 +113,11 @@ picture {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  height: 72px;
-  width: 260px;
-  font-size: 20px;
-  line-height: 24px;
-  letter-spacing: 3.63636px;
+  height: 4.5rem;
+  width: 16.25rem;
+  font-size: 1.25rem;
+  line-height: 1.5rem;
+  letter-spacing: 0.2273rem;
   background-color: var(--color-black);
 }
 
@@ -130,16 +130,16 @@ picture {
   display: flex;
   align-items: center;
   justify-content: center;
-  flex-basis: 56px;
-  height: 72px;
+  flex-basis: 3.5rem;
+  height: 4.5rem;
   cursor: pointer;
   background-color: var(--color-accent);
 }
 
 .home-header a span svg,
 .location-header a.back span svg {
-  width: 10px;
-  height: 24px;
+  width: 0.625rem;
+  height: 1.5rem;
 }
 
 .location-header {
@@ -166,21 +166,21 @@ picture {
 .location-hero h1 {
   margin-top: 0;
   margin-bottom: 48px;
-  font-size: 50px;
-  line-height: 45px;
+  font-size: 3.125rem;
+  line-height: 2.8125rem;
   color: var(--color-white);
 }
 
 .location-hero h2 {
-  font-size: 32px;
-  line-height: 32px;
+  font-size: 2rem;
+  line-height: 2rem;
   margin-bottom: 20px;
   color: var(--color-accent);
 }
 
 .location-hero p {
-  font-size: 18px;
-  line-height: 28px;
+  font-size: 1.125rem;
+  line-height: 1.75rem;
   color: var(--color-white);
 }
 
@@ -199,14 +199,14 @@ picture {
 }
 
 .home-top-text h2 {
-  font-size: 50px;
-  line-height: 45px;
+  font-size: 3.125rem;
+  line-height: 2.8125rem;
   margin-bottom: 20px;
 }
 
 .home-top-text p {
-  font-size: 18px;
-  line-height: 28px;
+  font-size: 1.125rem;
+  line-height: 1.75rem;
   color: var(--color-gray);
 }
 
@@ -217,25 +217,25 @@ picture {
 }
 
 .home-bottom-text {
-  height: 293px;
+  height: 18.3125rem;
   padding: 47.5px 24px;
   color: var(--color-white);
   background-color: var(--color-black);
 }
 
 .home-bottom-text h2 {
-  font-size: 50px;
-  line-height: 45px;
+  font-size: 3.125rem;
+  line-height: 2.8125rem;
   margin-bottom: 24px;
 }
 
 .home-bottom-text p {
-  font-size: 18px;
-  line-height: 28px;
+  font-size: 1.125rem;
+  line-height: 1.75rem;
 }
 
 .home-footer {
-  height: 336px;
+  height: 21rem;
   margin-top: 120px;
   padding: 48px 32px;
   color: var(--color-white);
@@ -263,8 +263,8 @@ picture {
 }
 
 .home-footer p {
-  font-size: 16px;
-  line-height: 26px;
+  font-size: 1rem;
+  line-height: 1.625rem;
 }
 
 .social {
@@ -314,9 +314,9 @@ picture {
 }
 
 .leaflet-popup-content-wrapper h2 {
-  font-size: 16px;
-  line-height: 18px;
-  letter-spacing: 0.5px;
+  font-size: 1rem;
+  line-height: 1.125rem;
+  letter-spacing: 0.0313rem;
   margin: 40px 0 5px 0;
   color: var(--color-accent);
   text-shadow: 1px 1px 2px var(--color-black);
@@ -372,6 +372,10 @@ picture {
     background-color: var(--color-black);
   }
 
+  .location-header a.back:hover span {
+    background-color: var(--color-black);
+  }
+
   .home-footer .social a:hover svg path {
     fill: var(--color-accent);
     transition: fill 0.3s ease-in-out;
@@ -393,7 +397,7 @@ picture {
     display: flex;
     justify-content: flex-end;
     align-items: center;
-    height: 700px;
+    height: 43.75rem;
     padding: unset;
     background: url(../assets/tablet/image-hero@2x.jpg) no-repeat top 0 left 0/437px 700px;
   }
@@ -441,13 +445,13 @@ picture {
   }
 
   .location-hero h1 {
-    font-size: 55px;
-    line-height: 50px;
-    flex-basis: 223px;
+    font-size: 3.4375rem;
+    line-height: 3.125rem;
+    flex-basis: 13.9375rem;
   }
 
   .location-address {
-    flex-basis: 398px;
+    flex-basis: 24.875rem;
   }
 
   .home-main>*,
@@ -496,19 +500,19 @@ picture {
 
   .home-g2 {
     grid-area: g2;
-    height: 720px;
+    height: 45rem;
     background: url(../assets/tablet/image-grid-2@2x.jpg) no-repeat center center/cover;
   }
 
   .home-g3 {
     grid-area: g3;
-    height: 313px;
+    height: 19.5625rem;
     background: url(../assets/tablet/image-grid-3@2x.jpg) no-repeat center center/cover;
   }
 
   .home-bottom-text {
     grid-area: tb;
-    height: 396px;
+    height: 24.75rem;
     padding: 85px 28.5px;
   }
 
@@ -516,12 +520,12 @@ picture {
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
-    height: 216px;
+    height: 13.5rem;
     padding: 56px 40px;
   }
 
   .home-footer p {
-    flex-basis: 281px;
+    flex-basis: 17.5625rem;
     margin-left: 65px;
   }
 
@@ -548,7 +552,7 @@ picture {
   }
 
   .home-footer {
-    max-width: 1440px;
+    max-width: 90rem;
     margin: 120px auto 0;
     padding: 80px 165px;
   }
@@ -566,8 +570,8 @@ picture {
 
 @media (min-width: 80rem) {
   .home-header {
-    height: 800px;
-    background: url(../assets/desktop/image-hero@2x.jpg) no-repeat top 0 left 0/540px 800px;
+    height: 50rem;
+    background: url(../assets/desktop/image-hero@2x.jpg) no-repeat top 0 left 0/33.75rem 50rem;
   }
 
   .home-top-text {
@@ -576,14 +580,14 @@ picture {
   }
 
   .home-top-text h2 {
-    font-size: 60px;
-    line-height: 60px;
+    font-size: 3.75rem;
+    line-height: 3.75rem;
     margin-bottom: 32px;
   }
 
   .home-top-text p {
-    font-size: 22px;
-    line-height: 32px;
+    font-size: 1.375rem;
+    line-height: 2rem;
   }
 
   .home-g1 {
@@ -603,20 +607,20 @@ picture {
   }
 
   .home-bottom-text h2 {
-    font-size: 60px;
-    line-height: 60px;
+    font-size: 3.75rem;
+    line-height: 3.75rem;
     margin-bottom: 32px;
   }
 
   .home-bottom-text p {
-    font-size: 22px;
-    line-height: 32px;
+    font-size: 1.375rem;
+    line-height: 2rem;
   }
 
   .home-footer p {
-    flex-basis: 430px;
-    font-size: 18px;
-    line-height: 28px;
+    flex-basis: 26.875rem;
+    font-size: 1.125rem;
+    line-height: 1.75rem;
     margin-left: 140px;
   }
 
@@ -626,9 +630,9 @@ picture {
   .home-header {
     background-blend-mode: difference;
     align-items: initial;
-    height: 800px;
+    height: 50rem;
     padding: 190px 165px 0 165px;
-    background: url(../assets/desktop/image-hero@2x.jpg) no-repeat top 0 left 450px/540px 800px, linear-gradient(to right, var(--color-black) 450px, transparent 990px);
+    background: url(../assets/desktop/image-hero@2x.jpg) no-repeat top 0 left 28.125rem/33.75rem 50rem, linear-gradient(to right, var(--color-black) 28.125rem, transparent 61.875rem);
   }
 
   .home-header .hero-text {
@@ -662,15 +666,15 @@ picture {
 
 
   .hero-p-a {
-    flex-basis: 350px
+    flex-basis: 21.875rem
   }
 
   .hero-p-a p {
     margin-top: 0;
     margin-bottom: 64px;
     padding-top: 0;
-    font-size: 22px;
-    line-height: 32px;
+    font-size: 1.375rem;
+    line-height: 2rem;
   }
 
   .home-main,
@@ -688,24 +692,24 @@ picture {
   }
 
   .location-hero h1 {
-    font-size: 70px;
-    line-height: 70px;
-    flex-basis: 350px;
+    font-size: 4.375rem;
+    line-height: 4.375rem;
+    flex-basis: 21.875rem;
   }
 
   .location-address {
-    flex-basis: 540px;
+    flex-basis: 33.75rem;
   }
 
   .location-hero h2 {
-    font-size: 36px;
-    line-height: 36px;
+    font-size: 2.25rem;
+    line-height: 2.25rem;
     margin-bottom: 24px;
   }
 
   .location-hero p {
-    font-size: 22px;
-    line-height: 32px;
+    font-size: 1.375rem;
+    line-height: 2rem;
   }
 
   .address-details {
@@ -726,12 +730,12 @@ picture {
   }
 
   .home-bottom-text {
-    height: 377px;
+    height: 23.5625rem;
   }
 
   .home-footer {
     margin-top: 180px;
-    height: 244px;
+    height: 15.25rem;
   }
 
   .location-footer {

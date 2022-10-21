@@ -27,4 +27,4 @@ let marker = L.marker([41.48024697281712, -71.31101489218936], {
 marker.bindPopup("<h2>99 king street</h2><p>Newport, RI 02840</p><p>USA</p>", {
   offset: L.point(4, 15),
   minWidth: 125,
-})
+});
